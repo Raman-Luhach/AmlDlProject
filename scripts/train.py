@@ -153,6 +153,7 @@ def main() -> None:
         config.setdefault('training', {})['lr'] = args.lr
     if args.max_images is not None:
         config.setdefault('dataset', {})['max_images'] = args.max_images
+        config.setdefault('dataset', {})['train_subset'] = args.max_images
     if args.num_workers is not None:
         config.setdefault('dataset', {})['num_workers'] = args.num_workers
 

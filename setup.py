@@ -4,7 +4,7 @@ setup(
     name='high-density-object-segmentation',
     version='1.0.0',
     description='YOLACT + MobileNetV3 + Soft-NMS for Dense Retail Scene Segmentation',
-    author='Alok Singh Tomar',
+    author='Raman Luhach, Rachit Kumar',
     packages=find_packages(),
     python_requires='>=3.8',
     install_requires=[

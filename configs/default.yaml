@@ -3,10 +3,10 @@
 
 dataset:
   name: "SKU-110K"
-  data_dir: "data/SKU110K_fixed"
+  data_dir: "data"
   num_classes: 1  # single class: "object"
   input_size: 550
-  train_subset: 5000  # use subset for faster training
+  train_subset: 1000  # use subset for faster training
   num_workers: 4
   pin_memory: true
 

@@ -1,7 +1,7 @@
 # High-Density Object Segmentation using YOLACT + MobileNetV3 + Soft-NMS
 
 > **B.Tech Final Year Project** -- Applied Machine Learning & Deep Learning
-> **Author:** Alok Singh Tomar
+> **Authors:** Raman Luhach (230107), Rachit Kumar (230128)
 > **Dataset:** [SKU-110K](https://github.com/eg4000/SKU110K_CVPR19) (dense retail shelf scenes)
 
 ---
@@ -380,10 +380,10 @@ L = 1.0 * L_cls (Focal) + 1.5 * L_box (Smooth L1) + 6.125 * L_mask (BCE)
 If you find this work useful, please cite:
 
 ```bibtex
-@thesis{tomar2026highdensity,
+@thesis{luhaj2026highdensity,
   title   = {High-Density Object Segmentation using YOLACT + MobileNetV3 + Soft-NMS
              on SKU-110K Dataset},
-  author  = {Tomar, Alok Singh},
+  author  = {Luhach, Raman and Kumar, Rachit},
   year    = {2026},
   type    = {B.Tech Final Year Project},
   note    = {Applied Machine Learning and Deep Learning}
@@ -407,5 +407,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ```
 MIT License
-Copyright (c) 2026 Alok Singh Tomar
+Copyright (c) 2026 Raman Luhach, Rachit Kumar
 ```
