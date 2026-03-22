@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Data and weights
+data/
+weights/*.pt
+weights/*.pth
+weights/*.onnx
+!weights/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+wandb/
+runs/
+*.log
+
+# Results (keep structure)
+results/**/*.png
+results/**/*.json
+!results/.gitkeep
