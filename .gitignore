@@ -32,7 +32,5 @@ wandb/
 runs/
 *.log
 
-# Results (keep structure)
-results/**/*.png
-results/**/*.json
+# Results (tracked for project submission)
 !results/.gitkeep
