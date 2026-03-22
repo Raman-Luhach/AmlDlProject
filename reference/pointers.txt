@@ -1,0 +1,9 @@
+1.find a dataset appropriate for it .
+2.use the rubric , text and image for createing a plan
+3.strictly go according the plan 
+4.tell me how much to do in phase1 
+5.the code structure should be good and perfect 
+6.classic ml and deep learning based both modals i need 
+
+
+

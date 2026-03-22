@@ -1,0 +1,25 @@
+Project 10: High-Density Object Segmentation
+Domain: Computer Vision, Retail Analytics, Smart Cities, Industrial Inspection
+Description
+Many real-world vision systems operate in environments where objects are densely packed and heavily occluded. Examples include retail shelf monitoring, warehouse inventory counting, crowd analysis, and biological cell imaging. In such settings, traditional object detection systems often fail because overlapping objects blur visual boundaries.
+Scope
+Students are expected to design a vision system capable of identifying and separating multiple object instances within crowded images. The problem focuses on static images with varying degrees of overlap and scale, not video tracking or re-identification.
+The number of  objects should be from 1 - 50.
+Objectives
+Understand the limitations of simple detection techniques in crowded scenes
+Compare instance-level segmentation approaches across modeling paradigms
+Evaluate performance trade-offs between accuracy and computational efficiency
+Baseline ML
+Implement a simple image-processing or heuristic-based object separation method.
+Advanced ML
+Implement a non-deep-learning computer vision approach.
+DL
+Implement a deep learning–based vision model for instance-level object understanding.
+Hybrid / Edge
+Implement a hybrid or system-level approach that combines multiple techniques.
+Extra Mile
+Optional enhancements may include:
+Robustness analysis under extreme occlusion
+Performance comparison across object densities
+Error analysis highlighting failure modes / Efficiency–accuracy trade-off studies
+
